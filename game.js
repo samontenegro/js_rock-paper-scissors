@@ -78,10 +78,12 @@ function computerPlay () {
 	This function chooses between three options:
 	rock, paper or scissors by choosing a random
 	integer 'z' between 0 and 2 (inclusive) and then
-	returinng the z-th element of a tuple containing
+	returńing the z-th element of a tuple containing
 	the options as entries.
 	*/
 	options = ['rock','paper','scissors'];
 	z = Math.floor(Math.random() * 3);
 	return options[z]
 }
+
+rockPaperScissors();
