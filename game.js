@@ -10,14 +10,14 @@ function rockPaperScissors() {
 	while (round < 5) {
 		let playerChoice = prompt(`Round ${round +1}! Please choose between "rock", "paper" and "scissors"! :)`).trim().toLowerCase();
 		if (['rock','paper','scissors'].indexOf(playerChoice) === -1 ) { 
-			alert('Invalid choice. Please, try again.');
+			console.log('Invalid choice. Please, try again.');
 			continue;
 		}
 		
 		let computerChoice = computerPlay();
 		let result = arbiter(playerChoice,computerChoice);
 		
-		alert(result[0]);
+		console.log(result[0]);
 		
 		if (result[1] === 1) {
 			playerScore += 1;
@@ -26,15 +26,15 @@ function rockPaperScissors() {
 		}
 		round += 1;
 
-		alert(`The score is: Player ${playerScore} - ${computerScore} Computer!`)
+		console.log(`The score is: Player ${playerScore} - ${computerScore} Computer!`)
 	}
 
 	if (playerScore	=== computerScore) {
-		alert('The match is tied! Thanks for playing!')
+		console.log('The match is tied! Thanks for playing!')
 	} else if (playerScore > computerScore) {
-		alert('The player has won the match! Thanks for playing!')
+		console.log('The player has won the match! Thanks for playing!')
 	} else {
-		alert('The computer has won the match! Thanks for playing!')
+		console.log('The computer has won the match! Thanks for playing!')
 	}
 }
 
