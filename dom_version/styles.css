@@ -1,0 +1,91 @@
+body {
+	background-color: #303846;
+	font-family: 'Roboto';
+}
+
+.container {
+	background-color: #ffb300;
+	width: 400px;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+	/* border: solid 2px white; */
+	border-radius: 20px;
+
+	padding: 8px 16px 32px 16px;
+	box-shadow: 0px 2px 175px;
+}
+
+.container-tag {
+	background-color: #ffb300;
+
+	width: 400px;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+	/* border: solid 2px white; */
+	border-radius: 20px;
+
+	padding: 8px 16px 8px 16px;
+}
+
+div.container.score {
+	width: 400px;
+}
+
+p.score {
+	font-size: 120px;
+	font-weight: 1000;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#tag {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 20px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+div.options {
+	position: relative;
+	width: 360px;
+	height: 104px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+div.option{
+
+	width: 100px;
+	height: 100px;
+	border: solid 2px black;
+	border-radius: 5px;
+	margin: 0px 8px 0px 8px;
+	padding: 0 0 0 0;
+	float: left;
+}
+
+div.option > p {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 800;
+	text-align: center;
+
+  	-webkit-user-select: none;
+  	-moz-user-select: none;  
+  	-ms-user-select: none; 
+}
